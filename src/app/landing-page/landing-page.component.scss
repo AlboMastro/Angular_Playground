@@ -35,12 +35,36 @@
 
 .vertical-title {
     writing-mode: vertical-rl; 
+    color:#292828 ;
     transform: rotate(-180deg); 
+    font-family: sans-serif;
    
 }
-.vertical-title:hover {
-    
-    transform: rotate(-90deg); 
-    transition: 2s;
-    
+
+
+.ritaglio-orizzontale{
+  background-color:#DD0031;
+  height: 90vh;
+  width: 70px;
+}
+
+.ritaglio-orizzontale:hover{
+  background-color: #292828;  
+  transition: 2s;
+}
+
+.vertical-title:hover{
+  color: aliceblue;
+  transition: 1s;
+}
+
+.logo{
+  width: 40px;
+  transform: rotate(-90deg);
+  margin-left: 22px;
+}
+
+.logo:hover{
+  transform: rotate(4deg);
+  transition: 2s;
 }
