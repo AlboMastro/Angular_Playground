@@ -1,0 +1,44 @@
+//Color scheme Angular:
+
+//Primario: #DD0031
+//Secondario: #C3002F
+//Sfondo: #FFFFFF
+//Testo principale: #333333
+//Testo secondario: #666666
+
+.titolo {
+  color: #c3002f;
+  font-family: sans-serif;
+  margin-left: 10px;
+}
+
+.opacita {
+  background-color: rgba(97, 84, 84, 0.664);
+  height: 100vh;
+}
+
+.presentazione {
+  background-color: rgba(36, 36, 33, 0.8);
+  border: 5px solid #dd0031;
+  border-radius: 15px;
+}
+
+.landing {
+  background-image: url(/assets/Background/code-photo.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.landing-description {
+  font-family: sans-serif;
+}
+
+.vertical-title {
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg); 
+}
+.vertical-title:hover {
+     
+    transform: rotate(-180deg); 
+    transition: 2s;
+}
