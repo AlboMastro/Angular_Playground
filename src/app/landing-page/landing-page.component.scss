@@ -14,7 +14,7 @@
 
 .opacita {
   background-color: rgba(97, 84, 84, 0.664);
-  height: 100vh;
+  height: auto;
 }
 
 .presentazione {
@@ -34,37 +34,35 @@
 }
 
 .vertical-title {
-    writing-mode: vertical-rl; 
-    color:#292828 ;
-    transform: rotate(-180deg); 
-    font-family: sans-serif;
-   
+  writing-mode: vertical-rl;
+  color: #292828;
+  transform: rotate(-180deg);
+  font-family: sans-serif;
 }
 
-
-.ritaglio-orizzontale{
-  background-color:#DD0031;
+.ritaglio-orizzontale {
+  background-color: #dd0031;
   height: 90vh;
   width: 70px;
 }
 
-.ritaglio-orizzontale:hover{
-  background-color: #292828;  
+.ritaglio-orizzontale:hover {
+  background-color: #292828;
   transition: 2s;
 }
 
-.vertical-title:hover{
+.vertical-title:hover {
   color: aliceblue;
   transition: 1s;
 }
 
-.logo{
+.logo {
   width: 40px;
   transform: rotate(-90deg);
   margin-left: 22px;
 }
 
-.logo:hover{
+.logo:hover {
   transform: rotate(4deg);
   transition: 2s;
 }
