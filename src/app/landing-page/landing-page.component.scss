@@ -35,10 +35,12 @@
 
 .vertical-title {
     writing-mode: vertical-rl; 
-    transform: rotate(180deg); 
+    transform: rotate(-180deg); 
+   
 }
 .vertical-title:hover {
-     
-    transform: rotate(-180deg); 
+    
+    transform: rotate(-90deg); 
     transition: 2s;
+    
 }
